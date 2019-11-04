@@ -34,4 +34,11 @@ describe("wordBreak", () => {
       expect(wordBreak(input, dict).join("|")).toBe(output);
     });
   });
+
+  it("should use longestWordLength if defined", () => {
+    const dict2 = ["samsung", "like", "sung", "sam", "i"];
+    expect(wordBreak("ilikesamsungsamsung", dict2, 4).join("|")).toBe(
+      "i|like|sam|sung|sam|sung"
+    );
+  });
 });

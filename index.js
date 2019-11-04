@@ -10,7 +10,7 @@ function wordBreak(s, dict, longestWordLength) {
       const ret = [word];
 
       const end = i === s.length;
-      const words = !end ? wordBreak(s.substring(i), dict) : [];
+      const words = !end ? wordBreak(s.substring(i), dict, max) : [];
       ret.push(...words);
       return ret;
     }
