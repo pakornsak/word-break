@@ -1,0 +1,28 @@
+{
+  "name": "word-break",
+  "version": "0.0.1",
+  "description": "word-break util for npl",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakornsak/word-break.git"
+  },
+  "keywords": [
+    "word-break",
+    "word",
+    "break",
+    "npl"
+  ],
+  "author": "Pakornsak Supamongkonchaikul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pakornsak/word-break/issues"
+  },
+  "homepage": "https://github.com/pakornsak/word-break#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
