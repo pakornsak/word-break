@@ -1,6 +1,6 @@
 {
   "name": "word-break",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "word-break util for npl",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "word-break",
     "word",
     "break",
-    "npl"
+    "nlp"
   ],
   "author": "Pakornsak Supamongkonchaikul",
   "license": "MIT",
