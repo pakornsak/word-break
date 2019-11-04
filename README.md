@@ -7,9 +7,8 @@ word-break util using a given dictionary
 ```ts
 import wordBreak from "word-break";
 
-test("wordBreak", async () => {
+test("wordBreak", () => {
   const dict = ["samsung", "like", "i"];
-
   const list = wordBreak(input, dict);
   expect(list.join("|")).toBe("i|like|samsung");
 });
