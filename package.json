@@ -1,6 +1,6 @@
 {
   "name": "word-break",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "word-break util for npl",
   "main": "index.js",
   "scripts": {
